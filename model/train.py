@@ -136,7 +136,12 @@ def run_eval(model, eval_data, log, batch_size, iter, TB_writer=None):
             metric_losses[key] += metrics[key]
 
         cum_loss += float(result["loss"])
-        if (idx + 1) % math.ceil(eval_num_iter / 3) == 0 or (idx + 1) == eval_num_iter:
+        if eval_num_iter<3:
+            line = f'((EVAL) (Epoch {iter + 1}) {idx + 1} / {eval_num_iter} loss: {round(cum_loss , 4)}'
+            print(line)
+            log.write(line + "\n")
+            cum_loss = 0
+        elif (idx + 1) % math.ceil(eval_num_iter / 3) == 0 or (idx + 1) == eval_num_iter:
             line = f'((EVAL) (Epoch {iter + 1}) {idx + 1} / {eval_num_iter} loss: {round(cum_loss / round(eval_num_iter / 3), 4)}'
             print(line)
             log.write(line + "\n")
@@ -229,3 +234,4 @@ if __name__ == '__main__':
     for lr in [3e-4]:
         for fold in range(5):
             train_eval_loop(lr=lr, dropout=0.1, fold=fold)
+

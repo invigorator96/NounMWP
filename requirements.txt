@@ -1,3 +1,5 @@
 torch==1.10.0+cu113
 transformers==4.11.2
 sympy==1.9
+sentencepiece==0.1.96
+tensorboard
