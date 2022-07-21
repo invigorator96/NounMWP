@@ -5,4 +5,4 @@ Supplementary materials for COLING2022 submission NounMWP: Math Word Problems Me
 ## Licence
 
 - raw data from TUNiB is Licenced under [CC-BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)
-  - None: we have relabled subset of TUNib dataset ourselves.
+  - Note: we have relabled subset of TUNib dataset ourselves.
