@@ -7,9 +7,9 @@ Since the majority of our dataset is extracted from commercial source (mathemati
 However, we're happy to open the part of our dataset that does not have the copyright issue along with our model. 
 The portion of the releasable dataset contains 202 questions relabled from the TUNIB dataset which is already in open-source domain. 
 
-## Licence
+## License
 
-- The lincence for this project is only for the `model/` and `solver/`. Not for the dataset.
+- The license for this project is only for the `model/` and `solver/`. Not for the dataset.
 
-- raw data from [TUNiB](https://github.com/tunib-ai/KMWP) is Licenced under [CC-BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)
+- raw data from [TUNiB](https://github.com/tunib-ai/KMWP) is Licensed under [CC-BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)
   - Note: we have relabeled subset of TUNib dataset ourselves.
