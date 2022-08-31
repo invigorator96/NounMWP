@@ -9,5 +9,5 @@ The portion of the releasable dataset contains 202 questions relabled from the T
 
 ## Licence
 
-- raw data from TUNiB is Licenced under [CC-BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)
+- raw data from [TUNiB](https://github.com/tunib-ai/KMWP) is Licenced under [CC-BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)
   - Note: we have relabeled subset of TUNib dataset ourselves.
